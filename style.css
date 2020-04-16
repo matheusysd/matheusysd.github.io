@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    background-color: #087CA7;
+}
+ul {
+    list-style-type: none;
+}
+div.main {
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+.image {
+    border-radius: 50%;
+}
+.linkzada {
+    margin: auto 0;
+    margin-top: -2px;
+    display: inline-block;
+    font-size: 28px;
+}
+.linkzada li{
+    float: left;
+    margin-right: 20px;
+}
+.linkzada li a {
+    color: black
+}
