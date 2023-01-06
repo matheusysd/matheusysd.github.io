@@ -2,10 +2,15 @@ body {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 23px;
-    background-color: #087CA7;
+    border-left: 4px solid #9000c0;
+    border-right: 4px solid #9000c0;
+
 }
 ul {
     list-style-type: none;
+}
+.wrapper{
+    margin-top: 15%;
 }
 div.main {
     text-align: center;
@@ -19,7 +24,6 @@ div.main {
 }
 .linkzada {
     margin: auto 0;
-    margin-top: -2px;
     display: inline-block;
     font-size: 28px;
 }
@@ -29,4 +33,8 @@ div.main {
 }
 .linkzada li a {
     color: black
+}
+.markup {
+    color: #9000c0;
+    text-decoration: none;
 }
