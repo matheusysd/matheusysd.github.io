@@ -1,0 +1,28 @@
+{% comment %}
+  Configure giscus in _config.yml under the giscus: key.
+  Get repo_id and category_id from https://giscus.app (after installing the GitHub app on your repo).
+{% endcomment %}
+{% if site.giscus and site.giscus.repo_id != blank and site.giscus.category_id != blank %}
+<div class="giscus"></div>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="{{ site.giscus.repo }}"
+  data-repo-id="{{ site.giscus.repo_id }}"
+  data-category="{{ site.giscus.category }}"
+  data-category-id="{{ site.giscus.category_id }}"
+  data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
+  data-strict="{{ site.giscus.strict | default: '0' }}"
+  data-reactions-enabled="{{ site.giscus.reactions_enabled | default: '1' }}"
+  data-emit-metadata="{{ site.giscus.emit_metadata | default: '0' }}"
+  data-input-position="{{ site.giscus.input_position | default: 'bottom' }}"
+  data-theme="{{ site.giscus.theme | default: 'light' }}"
+  data-lang="{{ site.giscus.lang | default: 'en' }}"
+  data-loading="{{ site.giscus.loading | default: 'lazy' }}"
+  crossorigin="anonymous"
+  async>
+</script>
+{% else %}
+<p class="text-muted small">
+  Comments are not configured yet. Add <code>giscus.repo_id</code> and <code>giscus.category_id</code> in <code>_config.yml</code> (see <a href="https://giscus.app" target="_blank" rel="noopener">giscus.app</a>).
+</p>
+{% endif %}

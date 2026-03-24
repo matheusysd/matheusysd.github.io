@@ -1,0 +1,78 @@
+# Site
+name: "Matheus Domingos"
+title: "Matheus Domingos"
+description: "Software Engineer & Builder of things"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ""
+google_analytics: 'UA-46278016-1'
+mailchimp-list: ""
+
+# Giscus (GitHub Discussions comments) — https://giscus.app
+# Install the giscus app on your repo, enable Discussions, create a category, then paste IDs from the setup tool.
+giscus:
+  repo: "matheusysd/matheusysd.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnkyNDg2MTQwMjM="
+  category: "Announcements"
+  category_id: "DIC_kwDODtGMh84C5Cda"
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "top"
+  theme: "light_protanopia"
+  lang: "en"
+  loading: "lazy"
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  matheus:
+    name: Matheus
+    display_name: Matheus Domingos
+    gravatar: dee2b6a4d93543003188d262adc29c2d36fc62ee1e42d5832eac898cb0e16a5b
+    email: matheusyurisd@gmail.com
+    web: https://www.linkedin.com/in/matheusysd/
+    # twitter: https://twitter.com/wowthemesnet
+    description: "Software Engineer, DevOps enthusiastic, code Wizard and Software Shaman."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [LICENSE.txt, README.md, Gemfile, Gemfile.lock]
