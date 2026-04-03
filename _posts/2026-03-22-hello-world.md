@@ -4,7 +4,7 @@ title:  "Hello World"
 author: matheus
 categories: []
 tags: []
-image: assets/images/hello_world_blog.png
+image: assets/images/life_potion.png
 description: "Everything has a beginning."
 featured: true
 hidden: false
