@@ -9,7 +9,7 @@
     {% endif %}
     {% if book.cover and book.cover != "" %}
     <div class="book-cover">
-      <img src="{{ book.cover }}" alt="{{ book.title }}" loading="lazy">
+      <img src="{{ book.cover }}" alt="{{ book.title }}" loading="lazy" decoding="async">
     </div>
     {% else %}
     <div class="book-cover-placeholder">
