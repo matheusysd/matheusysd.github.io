@@ -1,0 +1,90 @@
+- title: "Tistou: The Boy with Green Thumbs"
+  author: "Maurice Druon"
+  rating: 5
+  status: read
+  # language: PT (orig. EN)
+  started: 2025-09-27
+  completed: 2025-09-28
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1356478640i/15958891.jpg"
+  link: "https://www.goodreads.com/book/show/15958891-tistou?from_search=true&from_srp=true&qid=KElVS9fmbw&rank=1"
+
+- title: "Irmão Negro"
+  author: "David Thomas, Andrew Hunt"
+  rating: 5
+  status: read
+  # language: PT
+  started: 2025-09-29
+  completed: 2025-10-04
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1323100631i/6289789.jpg"
+  link: "https://www.goodreads.com/book/show/6289789-irm-o-negro?from_choice=false&from_home_module=false"
+
+- title: "System Design Workbook: Edição 2026"
+  author: "Matheus Fidelis"
+  status: want
+  # language: PT
+  # started: 
+  cover: "https://m.media-amazon.com/images/I/81DGCHzZfKL._SY522_.jpg"
+  # link:
+
+- title: "Midnight Library"
+  author: "Matt Haig"
+  status: reading
+  # rating: 4
+  # language: PT (orig. EN)
+  started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg"
+  link: ""
+
+- title: "The Cathedral & the Bazaar"
+  author: "Eric S. Raymond"
+  status: read
+  rating: 3
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328835964i/134825.jpg"
+  link: ""
+
+- title: "Ozob - Vol. 1"
+  author: "Leonel Caldela, Deive Pazos"
+  status: read
+  rating: 4
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1448335778i/27887291.jpg"
+  link: ""
+
+- title: "O Garoto-Cabra"
+  author: "Leonel Caldela"
+  status: read
+  rating: 4
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1413752115i/23397142.jpg"
+  link: ""
+
+- title: "O herdeiro do leão"
+  author: "Leonel Caldela"
+  status: read
+  rating: 4
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1448336241i/27887330.jpg"
+  link: ""
+
+- title: "O melhor amigo do homem"
+  author: "Leonel Caldela"
+  status: read
+  rating: 4
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1539572551i/42314689.jpg"
+  link: ""
+
+- title: "So you want to talk about race"
+  author: "Ijeoma Oluo"
+  status: want
+  # rating: 4
+  # language: PT (orig. EN)
+  # started: 2025-12-27
+  cover: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555361760l/45143681._SY475_.jpg"
+  link: ""

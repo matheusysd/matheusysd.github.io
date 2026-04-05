@@ -1,0 +1,50 @@
+<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+  <div class="card book-card">
+    {% if book.status == "reading" %}
+    <span class="book-badge book-badge--reading">Currently Reading</span>
+    {% elsif book.status == "want" %}
+    <span class="book-badge book-badge--want">Want to Read</span>
+    {% else %}
+    <span class="book-badge book-badge--read">Read</span>
+    {% endif %}
+    {% if book.cover and book.cover != "" %}
+    <div class="book-cover">
+      <img src="{{ book.cover }}" alt="{{ book.title }}" loading="lazy">
+    </div>
+    {% else %}
+    <div class="book-cover-placeholder">
+      <i class="fas fa-book"></i>
+      <span>Cover Not Available</span>
+    </div>
+    {% endif %}
+    <div class="card-body">
+      <div class="book-title">
+        {% if book.link %}
+        <a href="{{ book.link }}" target="_blank" rel="noopener">{{ book.title }}</a>
+        {% else %}
+        {{ book.title }}
+        {% endif %}
+      </div>
+      <p class="book-author">{{ book.author }}</p>
+      <div class="book-meta">
+        {% if book.language %}
+        <span class="book-language">{{ book.language }}</span>
+        {% endif %}
+        {% if book.started %}
+        <span class="book-date">{{ book.started | date: "%B %d, %Y" }}{% if book.completed %} — {{ book.completed | date: "%B %d, %Y" }}{% endif %}</span>
+        {% endif %}
+      </div>
+      <!-- {% if book.status == "read" %}
+      <div class="rating-holder">
+        <div class="c-rating c-rating--small" data-rating-value="{{ book.rating }}">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+        </div>
+      </div>
+      {% endif %} -->
+    </div>
+  </div>
+</div>
