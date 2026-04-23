@@ -2,8 +2,8 @@
 layout: post
 title:  "AI on my routine"
 author: matheus
-categories: []
-tags: []
+categories: [software-engineering, engineering-culture, developer-experience]
+tags: [claude, ai, productivity, tools, workflow]
 image: assets/images/calendar.jpg
 description: "How far is it productivity?"
 featured: true
